@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Card } from "../../components/ui/Card";
 import { Button } from "../../components/common/Button";
 import { useAuth } from "../../contexts/AuthContext";
-import Logo from "../assets/logo.png";
+import Logo from "../../assets/svg/logo_completa.svg";
 import { Input } from "../../components/common/Input";
 
 export const Login = () => {
@@ -28,11 +28,10 @@ export const Login = () => {
     <div className="min-h-screen flex items-center justify-center ">
       <Card className="w-full max-w-md p-8 ">
         <div className="flex flex-col items-center mb-6">
-          <img src={Logo} alt="Logo" className="w-20 h-20 mb-2" />
-          <h2 className="text-2xl font-extrabold text-gray-800 mb-1 uppercase tracking-wider">
-            Entrar
+          <img src={Logo} alt="Logo" className="w-45  mb-6" />
+          <h2 className="text-md font-extrabold text-neutral-800 uppercase tracking-wider">
+            Acesse com seu Login
           </h2>
-          <span className="text-duo-green font-black text-lg">ENEM 700+</span>
         </div>
         <form onSubmit={handleSubmit} className="flex flex-col gap-4">
           <Input
