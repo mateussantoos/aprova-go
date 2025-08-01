@@ -6,10 +6,10 @@
   --font-rounded: "M PLUS Rounded 1c", sans-serif;
 
   /* Colors */
-  --color-primary: #61e006;
-  --color-primary-dark: #61b800;
-  --color-secondary: #28c4ff;
-  --color-secondary-dark: #28a0ff;
+  --color-primary: #28c4ff;
+  --color-primary-dark: #28a0ff;
+  --color-secondary: #61e006;
+  --color-secondary-dark: #61b800;
   --color-tertiary: #ff6161;
   --color-tertiary-dark: #ff4040;
   --color-quaternary: #ff6161;
