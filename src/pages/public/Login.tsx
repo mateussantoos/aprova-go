@@ -18,14 +18,14 @@ export const Login = () => {
     setError("");
     try {
       await login(email, password);
-      navigate("/", { replace: true });
+      navigate("/visao-geral", { replace: true });
     } catch (err: any) {
       setError("E-mail ou senha inválidos.");
     }
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center ">
+    <div className="min-h-screen flex items-center justify-center p-5">
       <Card className="w-full max-w-md p-8 ">
         <div className="flex flex-col items-center mb-6">
           <img src={Logo} alt="Logo" className="w-45  mb-6" />

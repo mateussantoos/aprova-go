@@ -1,5 +1,13 @@
 import type { InputHTMLAttributes, ReactNode } from "react";
 
+export type View =
+  | "visao-geral"
+  | "cronograma"
+  | "materiais"
+  | "progresso"
+  | "recursos"
+  | "simulados";
+
 export interface CardProps {
   children: React.ReactNode;
   className?: string;
