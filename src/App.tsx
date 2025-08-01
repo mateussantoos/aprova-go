@@ -5,8 +5,8 @@ export const App = () => {
   return (
     <AuthProvider>
       <div className="min-h-screen font-rounded">
-        <div className="flex flex-col min-h-screen ">
-          <main className=" mx-auto flex-grow">
+        <div className="flex flex-col min-h-screen w">
+          <main className=" flex-grow ">
             <AppRoutes />
           </main>
         </div>

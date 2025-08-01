@@ -8,6 +8,19 @@ export type View =
   | "recursos"
   | "simulados";
 
+export interface ChartDataset {
+  label: string;
+  data: number[];
+  backgroundColor: string;
+}
+
+export interface OverviewDocument {
+  strategyMatrix: {
+    labels: string[];
+    datasets: ChartDataset[];
+  };
+}
+
 export interface CardProps {
   children: React.ReactNode;
   className?: string;
