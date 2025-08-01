@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "tailwind-scrollbar-hide/v4";
+
+@theme {
+  /* Family Font */
+  --font-rounded: "M PLUS Rounded 1c", sans-serif;
+
+  /* Colors */
+  --color-primary: #61e006;
+  --color-primary-dark: #61b800;
+  --color-secondary: #28c4ff;
+  --color-secondary-dark: #28a0ff;
+  --color-tertiary: #ff6161;
+  --color-tertiary-dark: #ff4040;
+  --color-quaternary: #ff6161;
+  --color-quaternary-dark: #ff4040;
+  --color-quinary: #ff6161;
+  --color-quinary-dark: #ff4040;
+}
